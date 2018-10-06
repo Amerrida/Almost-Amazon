@@ -8,19 +8,21 @@
     <title>Document</title>
 </head>
     <body>
-        <div id='bookDiv'></div>
-        <button type="button" id='cartButt'>Add To Cart</button>
-        <h3>Your Cart is here</h3>
-        <div id='cartDiv'></div>
-
-
+        <H2>My Fake Amazon Store</H2>
+        <div class="col-4 offset-md-4">
+            <img class="col" src="https://images-na.ssl-images-amazon.com/images/I/51eAMQG-GkL.jpg">
+            <p class="price d-flex justify-content-center" id="price">$7.99</p>
+            <button type="button" class= "btn btn-warning" id="addButton">Add To Cart Here</button>
+        </div>
+    
+        <div id="cart"></div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
-    <script src="./js/comp/cart.js" type="module"></script>
-    <script src="./js/comp/store.js" type="module"></script>
-    <script src="./js/helper/util.js" type="module"></script>
-    <script src="./js/main.js" type="module"></script>
+    <script src="./javascripts/components/cart.js" type="module"></script>
+    <script src="./javascripts/components/store.js" type="module"></script>
+    <script src="./javascripts/helper/util.js" type="module"></script>
+    <script src="./javascripts/main.js" type="module"></script>
 </body>
 </html>
