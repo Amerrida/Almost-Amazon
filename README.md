@@ -1,7 +1,5 @@
 # Almost-Amazon
 
-# code-maker-breaker
-
 This a store that has only one book.
 
 

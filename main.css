@@ -1,4 +1,33 @@
 body{
-    background-color: red;
+    background-image: linear-gradient(rgb(102, 102, 228), rgb(141, 229, 139));
+}
+.main_heading{
+    margin-top: 30px;
+}
 
+.description{
+    text-align: center;
+}
+.main_heading {
+    text-align: center;
+   
+}
+#cart {
+    background-image: url('https://cdn3.iconfinder.com/data/icons/banking-19/52/5-512.png');
+    position: absolute;  
+    bottom: 50px;
+    right: 50px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    padding-bottom: 120px;
+    padding-right: 65px;
+    
+}
 
+#bookInfo {
+    margin-top:50px;
+    margin-left: 20px;
+}
+#cart_button{
+    shape-margin: 20px;
+}
