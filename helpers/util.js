@@ -1,5 +1,7 @@
-// cons printToDom =(stringToPrint,divId) => {
-//     const selectedDiv = document.getElementById(divId);
-//     selectedDiv.innerHTML = stringToPrint;
-// };
 
+const printToDom = (stringToPrint, divId) => {
+    const printHere = document.getElementById(divId);
+    printHere.innerHTML = stringToPrint;
+};
+
+export {printToDom}
